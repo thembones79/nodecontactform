@@ -1,0 +1,24 @@
+{
+  "name": "nodecontactform",
+  "version": "1.0.0",
+  "description": "Sample app using nodemailer",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "master"
+  },
+  "keywords": [
+    "nodemailer"
+  ],
+  "author": "Michal Szumnarski",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "nodemailer": "^5.1.1"
+  }
+}
