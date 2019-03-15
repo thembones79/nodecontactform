@@ -95,7 +95,7 @@ app.post('/send', (req, res) => {
         }
         console.log("Message sent: %s", info.messageId);
         console.log("Preview URL is: %s", nodemailer.getTestMessageUrl(info));
-        res.json({msg: 'Email has been sent'});
+        //res.json({msg: 'Email has been sent'});
         //res.sendFile(path.join(__dirname+'/client/build/index.html'));
         res.redirect("https://www.unisystem.pl/pl/thankyou");
 
