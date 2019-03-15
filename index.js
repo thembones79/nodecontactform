@@ -102,14 +102,14 @@ app.post('/send', (req, res) => {
 
 
 
-        var send = req.param("send");
+       // var send = req.param("send");
 
-        res.writeHead(200, {
-            'Content-Type': 'text/html'
-        });
-        res.write('Code: ' + code);
-        res.write('<script>setTimeout(function () { window.location.href = "https://www.unisystem.pl/pl/test_form"; }, 5000);</script>');
-        res.end();
+       // res.writeHead(200, {
+       //     'Content-Type': 'text/html'
+       // });
+       // res.write('Code: ' + code);
+       // res.write('<script>setTimeout(function () { window.location.href = "https://www.unisystem.pl/pl/test_form"; }, 5000);</script>');
+       // res.end();
 
 
 
