@@ -109,7 +109,7 @@ app.post('/send', (req, res) => {
        // });
        // res.write('Code: ' + code);
        // res.write('<script>setTimeout(function () { window.location.href = "https://www.unisystem.pl/pl/test_form"; }, 5000);</script>');
-       // res.end();
+       res.end();
 
 
 
