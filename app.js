@@ -34,6 +34,21 @@ app.get('/', (req, res) => {
 });
 
 
+app.get('/api/passwords', (req, res) => {
+    const count = 5;
+  
+    // Generate some passwords
+    const passwords = {
+        test: "working"
+    };
+  
+    // Return them as json
+    res.json(passwords);
+  
+    console.log(`Sent ${count} passwords`);
+  });
+
+
 app.post('/send', (req, res) => {
     const output = `
     <p>You have a new contact request</p>
